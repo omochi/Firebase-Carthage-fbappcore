@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6E622482122EE0C008F3DE9 /* fbappcore.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E622462122EE0C008F3DE9 /* fbappcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E6225F2122EE77008F3DE9 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6224F2122EE76008F3DE9 /* FirebaseCore.framework */; };
+		D6E622602122EE77008F3DE9 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622502122EE76008F3DE9 /* Protobuf.framework */; };
+		D6E622612122EE77008F3DE9 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622512122EE77008F3DE9 /* FirebaseFirestore.framework */; };
+		D6E622622122EE77008F3DE9 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622522122EE77008F3DE9 /* FirebaseInstanceID.framework */; };
+		D6E622632122EE77008F3DE9 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622532122EE77008F3DE9 /* BoringSSL.framework */; };
+		D6E622642122EE77008F3DE9 /* gRPC-ProtoRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622542122EE77008F3DE9 /* gRPC-ProtoRPC.framework */; };
+		D6E622652122EE77008F3DE9 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622552122EE77008F3DE9 /* FirebaseNanoPB.framework */; };
+		D6E622662122EE77008F3DE9 /* gRPC-RxLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622562122EE77008F3DE9 /* gRPC-RxLibrary.framework */; };
+		D6E622672122EE77008F3DE9 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622572122EE77008F3DE9 /* GoogleToolboxForMac.framework */; };
+		D6E622682122EE77008F3DE9 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622582122EE77008F3DE9 /* FirebaseAnalytics.framework */; };
+		D6E622692122EE77008F3DE9 /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622592122EE77008F3DE9 /* gRPC.framework */; };
+		D6E6226A2122EE77008F3DE9 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6225A2122EE77008F3DE9 /* leveldb-library.framework */; };
+		D6E6226B2122EE77008F3DE9 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6225B2122EE77008F3DE9 /* Firebase.framework */; };
+		D6E6226C2122EE77008F3DE9 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6225C2122EE77008F3DE9 /* nanopb.framework */; };
+		D6E6226D2122EE77008F3DE9 /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6225D2122EE77008F3DE9 /* gRPC-Core.framework */; };
+		D6E6226E2122EE77008F3DE9 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6225E2122EE77008F3DE9 /* FirebaseCoreDiagnostics.framework */; };
+		D6E622702122EEC5008F3DE9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6226F2122EEC5008F3DE9 /* Item.swift */; };
+		D6E622722122EFAA008F3DE9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622712122EFAA008F3DE9 /* StoreKit.framework */; };
+		D6E622742122EFB4008F3DE9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622732122EFB4008F3DE9 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6E622432122EE0C008F3DE9 /* fbappcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fbappcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E622462122EE0C008F3DE9 /* fbappcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fbappcore.h; sourceTree = "<group>"; };
+		D6E622472122EE0C008F3DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E6224F2122EE76008F3DE9 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = ../Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
+		D6E622502122EE76008F3DE9 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = ../Carthage/Build/iOS/Protobuf.framework; sourceTree = "<group>"; };
+		D6E622512122EE77008F3DE9 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseFirestore.framework; path = ../Carthage/Build/iOS/FirebaseFirestore.framework; sourceTree = "<group>"; };
+		D6E622522122EE77008F3DE9 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = ../Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		D6E622532122EE77008F3DE9 /* BoringSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoringSSL.framework; path = ../Carthage/Build/iOS/BoringSSL.framework; sourceTree = "<group>"; };
+		D6E622542122EE77008F3DE9 /* gRPC-ProtoRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-ProtoRPC.framework"; path = "../Carthage/Build/iOS/gRPC-ProtoRPC.framework"; sourceTree = "<group>"; };
+		D6E622552122EE77008F3DE9 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = ../Carthage/Build/iOS/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		D6E622562122EE77008F3DE9 /* gRPC-RxLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-RxLibrary.framework"; path = "../Carthage/Build/iOS/gRPC-RxLibrary.framework"; sourceTree = "<group>"; };
+		D6E622572122EE77008F3DE9 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = ../Carthage/Build/iOS/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		D6E622582122EE77008F3DE9 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = ../Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		D6E622592122EE77008F3DE9 /* gRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gRPC.framework; path = ../Carthage/Build/iOS/gRPC.framework; sourceTree = "<group>"; };
+		D6E6225A2122EE77008F3DE9 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "../Carthage/Build/iOS/leveldb-library.framework"; sourceTree = "<group>"; };
+		D6E6225B2122EE77008F3DE9 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../Carthage/Build/iOS/Firebase.framework; sourceTree = "<group>"; };
+		D6E6225C2122EE77008F3DE9 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = ../Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
+		D6E6225D2122EE77008F3DE9 /* gRPC-Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gRPC-Core.framework"; path = "../Carthage/Build/iOS/gRPC-Core.framework"; sourceTree = "<group>"; };
+		D6E6225E2122EE77008F3DE9 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = ../Carthage/Build/iOS/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		D6E6226F2122EEC5008F3DE9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D6E622712122EFAA008F3DE9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D6E622732122EFB4008F3DE9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E6223F2122EE0C008F3DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E622742122EFB4008F3DE9 /* libsqlite3.tbd in Frameworks */,
+				D6E622722122EFAA008F3DE9 /* StoreKit.framework in Frameworks */,
+				D6E6225F2122EE77008F3DE9 /* FirebaseCore.framework in Frameworks */,
+				D6E622602122EE77008F3DE9 /* Protobuf.framework in Frameworks */,
+				D6E622612122EE77008F3DE9 /* FirebaseFirestore.framework in Frameworks */,
+				D6E622622122EE77008F3DE9 /* FirebaseInstanceID.framework in Frameworks */,
+				D6E622632122EE77008F3DE9 /* BoringSSL.framework in Frameworks */,
+				D6E622642122EE77008F3DE9 /* gRPC-ProtoRPC.framework in Frameworks */,
+				D6E622652122EE77008F3DE9 /* FirebaseNanoPB.framework in Frameworks */,
+				D6E622662122EE77008F3DE9 /* gRPC-RxLibrary.framework in Frameworks */,
+				D6E622672122EE77008F3DE9 /* GoogleToolboxForMac.framework in Frameworks */,
+				D6E622682122EE77008F3DE9 /* FirebaseAnalytics.framework in Frameworks */,
+				D6E622692122EE77008F3DE9 /* gRPC.framework in Frameworks */,
+				D6E6226A2122EE77008F3DE9 /* leveldb-library.framework in Frameworks */,
+				D6E6226B2122EE77008F3DE9 /* Firebase.framework in Frameworks */,
+				D6E6226C2122EE77008F3DE9 /* nanopb.framework in Frameworks */,
+				D6E6226D2122EE77008F3DE9 /* gRPC-Core.framework in Frameworks */,
+				D6E6226E2122EE77008F3DE9 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E622392122EE0C008F3DE9 = {
+			isa = PBXGroup;
+			children = (
+				D6E622452122EE0C008F3DE9 /* fbappcore */,
+				D6E622442122EE0C008F3DE9 /* Products */,
+				D6E6224E2122EE76008F3DE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E622442122EE0C008F3DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E622432122EE0C008F3DE9 /* fbappcore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E622452122EE0C008F3DE9 /* fbappcore */ = {
+			isa = PBXGroup;
+			children = (
+				D6E622462122EE0C008F3DE9 /* fbappcore.h */,
+				D6E622472122EE0C008F3DE9 /* Info.plist */,
+				D6E6226F2122EEC5008F3DE9 /* Item.swift */,
+			);
+			path = fbappcore;
+			sourceTree = "<group>";
+		};
+		D6E6224E2122EE76008F3DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E622732122EFB4008F3DE9 /* libsqlite3.tbd */,
+				D6E622712122EFAA008F3DE9 /* StoreKit.framework */,
+				D6E622532122EE77008F3DE9 /* BoringSSL.framework */,
+				D6E6225B2122EE77008F3DE9 /* Firebase.framework */,
+				D6E622582122EE77008F3DE9 /* FirebaseAnalytics.framework */,
+				D6E6224F2122EE76008F3DE9 /* FirebaseCore.framework */,
+				D6E6225E2122EE77008F3DE9 /* FirebaseCoreDiagnostics.framework */,
+				D6E622512122EE77008F3DE9 /* FirebaseFirestore.framework */,
+				D6E622522122EE77008F3DE9 /* FirebaseInstanceID.framework */,
+				D6E622552122EE77008F3DE9 /* FirebaseNanoPB.framework */,
+				D6E622572122EE77008F3DE9 /* GoogleToolboxForMac.framework */,
+				D6E6225D2122EE77008F3DE9 /* gRPC-Core.framework */,
+				D6E622542122EE77008F3DE9 /* gRPC-ProtoRPC.framework */,
+				D6E622562122EE77008F3DE9 /* gRPC-RxLibrary.framework */,
+				D6E622592122EE77008F3DE9 /* gRPC.framework */,
+				D6E6225A2122EE77008F3DE9 /* leveldb-library.framework */,
+				D6E6225C2122EE77008F3DE9 /* nanopb.framework */,
+				D6E622502122EE76008F3DE9 /* Protobuf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D6E622402122EE0C008F3DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E622482122EE0C008F3DE9 /* fbappcore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D6E622422122EE0C008F3DE9 /* fbappcore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E6224B2122EE0C008F3DE9 /* Build configuration list for PBXNativeTarget "fbappcore" */;
+			buildPhases = (
+				D6E6223E2122EE0C008F3DE9 /* Sources */,
+				D6E6223F2122EE0C008F3DE9 /* Frameworks */,
+				D6E622402122EE0C008F3DE9 /* Headers */,
+				D6E622412122EE0C008F3DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fbappcore;
+			productName = fbappcore;
+			productReference = D6E622432122EE0C008F3DE9 /* fbappcore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E6223A2122EE0C008F3DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = omochimetaru.com;
+				TargetAttributes = {
+					D6E622422122EE0C008F3DE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = D6E6223D2122EE0C008F3DE9 /* Build configuration list for PBXProject "fbappcore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6E622392122EE0C008F3DE9;
+			productRefGroup = D6E622442122EE0C008F3DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E622422122EE0C008F3DE9 /* fbappcore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E622412122EE0C008F3DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E6223E2122EE0C008F3DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E622702122EEC5008F3DE9 /* Item.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6E622492122EE0C008F3DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6E6224A2122EE0C008F3DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6E6224C2122EE0C008F3DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = fbappcore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.fbappcore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E6224D2122EE0C008F3DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = fbappcore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.fbappcore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E6223D2122EE0C008F3DE9 /* Build configuration list for PBXProject "fbappcore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E622492122EE0C008F3DE9 /* Debug */,
+				D6E6224A2122EE0C008F3DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E6224B2122EE0C008F3DE9 /* Build configuration list for PBXNativeTarget "fbappcore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E6224C2122EE0C008F3DE9 /* Debug */,
+				D6E6224D2122EE0C008F3DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E6223A2122EE0C008F3DE9 /* Project object */;
+}
