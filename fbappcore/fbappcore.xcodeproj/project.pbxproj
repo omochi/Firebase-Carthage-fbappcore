@@ -149,9 +149,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D6E622422122EE0C008F3DE9 /* fbappcore */ = {
+		D6E622422122EE0C008F3DE9 /* fbappcore-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6E6224B2122EE0C008F3DE9 /* Build configuration list for PBXNativeTarget "fbappcore" */;
+			buildConfigurationList = D6E6224B2122EE0C008F3DE9 /* Build configuration list for PBXNativeTarget "fbappcore-iOS" */;
 			buildPhases = (
 				D6E6223E2122EE0C008F3DE9 /* Sources */,
 				D6E6223F2122EE0C008F3DE9 /* Frameworks */,
@@ -162,7 +162,7 @@
 			);
 			dependencies = (
 			);
-			name = fbappcore;
+			name = "fbappcore-iOS";
 			productName = fbappcore;
 			productReference = D6E622432122EE0C008F3DE9 /* fbappcore.framework */;
 			productType = "com.apple.product-type.framework";
@@ -194,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6E622422122EE0C008F3DE9 /* fbappcore */,
+				D6E622422122EE0C008F3DE9 /* fbappcore-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -362,7 +362,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.fbappcore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = fbappcore;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -391,7 +391,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.fbappcore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = fbappcore;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6E6224B2122EE0C008F3DE9 /* Build configuration list for PBXNativeTarget "fbappcore" */ = {
+		D6E6224B2122EE0C008F3DE9 /* Build configuration list for PBXNativeTarget "fbappcore-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6E6224C2122EE0C008F3DE9 /* Debug */,
