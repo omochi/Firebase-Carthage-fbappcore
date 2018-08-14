@@ -27,6 +27,7 @@
 		D6E622702122EEC5008F3DE9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6226F2122EEC5008F3DE9 /* Item.swift */; };
 		D6E622722122EFAA008F3DE9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622712122EFAA008F3DE9 /* StoreKit.framework */; };
 		D6E622742122EFB4008F3DE9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E622732122EFB4008F3DE9 /* libsqlite3.tbd */; };
+		D6E6228A21231112008F3DE9 /* gRPCCertificates.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6E6228921231112008F3DE9 /* gRPCCertificates.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		D6E6226F2122EEC5008F3DE9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D6E622712122EFAA008F3DE9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D6E622732122EFB4008F3DE9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D6E6228921231112008F3DE9 /* gRPCCertificates.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = gRPCCertificates.bundle; path = ../../../../Build/iOS/gRPC.framework/gRPCCertificates.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		D6E622452122EE0C008F3DE9 /* fbappcore */ = {
 			isa = PBXGroup;
 			children = (
+				D6E6228921231112008F3DE9 /* gRPCCertificates.bundle */,
 				D6E622462122EE0C008F3DE9 /* fbappcore.h */,
 				D6E622472122EE0C008F3DE9 /* Info.plist */,
 				D6E6226F2122EEC5008F3DE9 /* Item.swift */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E6228A21231112008F3DE9 /* gRPCCertificates.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

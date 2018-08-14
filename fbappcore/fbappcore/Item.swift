@@ -20,9 +20,9 @@ public struct Item {
         self.description = description
     }
     
-    public init(firestore: [String: Any]) {
-        let name = firestore["name"] as? String ?? ""
-        let description = firestore["description"] as? String ?? ""
+    public init?(firestore: [String: Any]) {
+        guard let name = firestore["name"] as? String else { return nil }
+        guard let description = firestore["description"] as? String else { return nil }
         self.init(name: name,
                   description: description)
     }
