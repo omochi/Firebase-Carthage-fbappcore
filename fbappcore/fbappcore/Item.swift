@@ -20,6 +20,20 @@ public struct Item {
         self.description = description
     }
     
+    public init(firestore: [String: Any]) {
+        let name = firestore["name"] as? String ?? ""
+        let description = firestore["description"] as? String ?? ""
+        self.init(name: name,
+                  description: description)
+    }
+    
+    public func toFirestore() -> [String: Any] {
+        return [
+            "name": name,
+            "description": description
+        ]
+    }
+    
     public static func query() -> Query {
         return Firestore.firestore().collection("items")
     }
